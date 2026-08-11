@@ -1,9 +1,3 @@
+minimumReleaseAge: 1440
 minimumReleaseAgeExclude:
-  - '@penosext/miniapp-ai@0.1.0'
-  - '@penosext/miniapp-aiot-vue-cli@1.0.35'
-  - '@penosext/miniapp-cli@0.1.1'
-  - '@penosext/miniapp-http@0.1.0'
-  - '@penosext/miniapp-input@0.1.0'
-  - '@penosext/miniapp-runtime@0.1.0'
-  - '@penosext/miniapp-sqlite@0.1.0'
-  - '@penosext/miniapp-types@0.1.0'
+  - '@penosext/*'
