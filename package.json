@@ -1,0 +1,38 @@
+{
+  "name": "@penosext/miniapp-app-template",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "appid": "0000000000000000",
+  "appName": "Miniapp Template",
+  "scripts": {
+    "generate": "miniapp generate",
+    "typecheck": "miniapp generate && tsc --noEmit",
+    "build": "miniapp generate && aiot-cli build --mock"
+  },
+  "dependencies": {
+    "@penosext/miniapp-ai": "^0.1.0",
+    "@penosext/miniapp-aiot-vue-cli": "^1.0.32",
+    "@penosext/miniapp-http": "^0.1.0",
+    "@penosext/miniapp-input": "^0.1.0",
+    "@penosext/miniapp-runtime": "^0.1.0",
+    "@penosext/miniapp-sqlite": "^0.1.0",
+    "@penosext/miniapp-types": "^0.1.0",
+    "falcon-ui": "^2.0.2",
+    "vue": "^3.5.29"
+  },
+  "devDependencies": {
+    "@penosext/miniapp-cli": "^0.1.0",
+    "typescript": "^5.9.3"
+  },
+  "files": [
+    "app_icon.png",
+    "api-mock",
+    "images",
+    "miniapp.app.json",
+    "miniapp.lock",
+    "src",
+    "tsconfig.json"
+  ]
+}

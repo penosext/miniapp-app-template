@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.miniapp/
+.falcon_/
+generated/
+libs/
+*.amr
+*.so
+*.a
+*.log
+*.db

@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "type": "application",
+  "module": "app-template",
+  "appid": "0000000000000000",
+  "runtimeApi": 1,
+  "contract": "@penosext/miniapp-runtime"
+}
