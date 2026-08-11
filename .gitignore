@@ -9,4 +9,3 @@ libs/
 *.a
 *.log
 *.db
-pnpm-workspace.yaml
