@@ -6,10 +6,12 @@
   "type": "module",
   "appid": "0000000000000000",
   "appName": "Miniapp Template",
+  "icon": "app_icon.png",
   "scripts": {
     "generate": "miniapp generate",
     "typecheck": "miniapp generate && tsc --noEmit",
-    "build": "miniapp generate && aiot-cli build --mock"
+    "build": "miniapp generate && aiot-cli build --mock",
+    "test": "miniapp generate && tsx --test tests/*.test.ts"
   },
   "dependencies": {
     "@penosext/miniapp-ai": "^0.1.0",
@@ -23,7 +25,9 @@
     "vue": "^3.5.29"
   },
   "devDependencies": {
-    "@penosext/miniapp-cli": "^0.1.1",
+    "@penosext/miniapp-cli": "^0.1.2",
+    "@types/node": "^25.0.0",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
   "files": [

@@ -11,6 +11,7 @@ The template uses `private: true` and `license: UNLICENSED`. Do not copy third-p
 ```bash
 pnpm install
 pnpm generate
+pnpm test
 pnpm typecheck
 pnpm build
 ```
